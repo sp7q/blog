@@ -1,0 +1,13 @@
+---
+title: "Prezenty, prezenty !"
+date: 2015-03-22T20:18:00.001Z
+layout: post
+---
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="/images/2015-03-21+21.53.08.jpg" height="180" width="320" /></div>
+W ten weekend byłem w odwiedzinach u Kuby SQ7OVV. Spędziliśmy miło wieczór na pogawędce o naszych Elecraftch, współzawodnictwie w PGA (w końcu złoję mu kórę :-)), oraz motocylch. W związku z tym że wywietrzyłem mocno szuflady z wszelkich dóbr nadmiarowych, a także Tribandera, jakoś brak mi prostego radia w plecak, które wędrowało by ze mną zawsze i dawało możliwość okzajonlnej pracy. Owszem mam KX-a, ale wypd z nim raczej planuję i szkoda &nbsp;by ciągle ze mnną węrował. Okazało się, jak to zawsze u krótkowalowców, że coś na te szuflady zalega. Tak od Kuby dostałem Librę. Znalazłem już w moich czeluściach odpowiednią obudowę, a że nadajnik jest już prawie skończony, czas zabrać się za jego dokończenie. Będzie z tego fajny TX QRP na pamo 30m, które zreztą ostatnio coraz częściej doceniam.<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="/images/2015-03-22+20.04.27.jpg" height="400" width="225" /><img border="0" src="/images/2015-03-22+20.04.20.jpg" height="400" width="225" /></div>
+<div>
+<br /></div>

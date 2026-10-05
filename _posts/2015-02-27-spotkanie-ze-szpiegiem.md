@@ -1,0 +1,22 @@
+---
+title: "Spotkanie ze szpiegiem."
+date: 2015-02-27T09:06:00.004Z
+layout: post
+---
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="/images/7509600.3.jpg" height="320" width="220" /></div>
+Niewiele jest filmów z tak obszernym wątkiem krótkofalarskim. Polecam ten film z wielu powodów, &nbsp;jestem kinomaniakiem i mogę śmiało powiedzieć że oprócz hobbystycznego akcentu dla którego go obejrzałem do kawał dobrego Polskiego kina. Możemy obejrzeć na ekranie niespełna 29-letnią Beatę Tyszkiewicz, Zbigniewa Zapasiewicza czy Stanisława Mikulskiego. Po pełny opis filmu zapraszam do <a href="http://www.filmweb.pl/film/Spotkanie+ze+szpiegiem-1964-9714">filmweb.pl</a><br />
+<br />
+<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="/images/0.jpg" frameborder="0" height="315" src="/images/i3oOwhHdlE0?feature=player_embedded" width="560"></iframe></div>
+<br />

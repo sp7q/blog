@@ -1,0 +1,13 @@
+---
+title: "Nagrania binauralne."
+date: 2013-02-21T19:06:00Z
+layout: post
+---
+
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" height="320" src="/images/DSCN0189.JPG" width="240" /></div>
+Nagranie binauralne jest odmianą nagrania stereo w którym mamy odwzorowanie przestrzeni. Zainteresowała mnie ta technika i postanowiłem sam wykonać tzw. "dummy head". Użyłem plastikowej głowy, do której zamontowałem mikrofony polecane na wielu forach poświęconych nagraniom binauralnym <a href="https://www.google.pl/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=7&amp;cad=rja&amp;ved=0CEoQFjAG&amp;url=http%3A%2F%2Fwww.panasonic.com%2Findustrial%2Fcomponents%2Fpdf%2Fem06_wm61_a_b_dne.pdf&amp;ei=Im4mUYf1Lcr74QTMq4G4Cg&amp;usg=AFQjCNHy5cSkvy3W8H7091IQvAndk7N0uA&amp;sig2=pGW7I0RYngqSWoJgTpLvjQ&amp;bvm=bv.42661473,d.bGE">Panasonic WM-61</a>. Są to mikrofony o płaskiej charakterystyce w funkcji częstotliwości szeroko stosowane między innymi w sprzęcie pomiarowym. Głowę dla wytłumienia wypełniłem pianką montażową. Pierwsze nagranie bardzo mnie zaskoczyło, jego jakość może jeszcze nie powala, ze względu na sprzęt na jakim nagrywałem, ale i tak brzmi nieźle. Nagranie należy słuchać na słuchawki, w innym wypadku nie będzie słychać efektu.<br />
+<div class="separator" style="clear: both; text-align: center;">
+<object class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="/images/0.jpg" height="266" width="320"><param name="movie" value="http://www.youtube.com/v/jTiiMSI6OwI?version=3&f=user_uploads&c=google-webdrive-0&app=youtube_gdata" /><param name="bgcolor" value="#FFFFFF" /><param name="allowFullScreen" value="true" /><embed width="320" height="266"  src="/images/jTiiMSI6OwI?version=3&f=user_uploads&c=google-webdrive-0&app=youtube_gdata" type="application/x-shockwave-flash" allowfullscreen="true"></embed></object></div>

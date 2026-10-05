@@ -1,0 +1,38 @@
+I"�
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="/images/FT-817ND-20120412111946.jpg" height="215" width="400" /></div>
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+Często młodzi koledzy zaczynający zabawę z naszym hobby mają dość rad starszych kolegów powtarzających w koło “CW jest bardziej efektywne”, “kiedy SSB zawiedzie na CW zrobisz łączność” Ja chciałem spojrzeć na to z innej strony, ile CW waży ? Pytanie brzmi nieco dziwnie ?? Nie dla mnie.<br />
+<br />
+Na początek spójrzmy na CW ze strony komunikacyjnej. W uproszczony sposób porównajmy CW i SSB uwzględniając potrzebną dla obu emisji szerokość pasma (jest to spore uproszczenie na rzecz naszej analizy).  SSB zajmuje pasmo ok. 2,7 kHz, co oznacza że sygnał jest rozproszony na takiej szerokości widma. Zakładamy że sygnał CW zajmuje 100 Hz, więc emitowana moc jest bardziej skoncentrowana. Stosunek szerokości pasm jest 27:1, co daje 14 dB przewagi dla emisji CW, z czego wynika że sygnał 5 W CW daje nam taką samą gęstość mocy co sygnał 135 W SSB. Więc ile to waży ??<br />
+<br />
+Załóżmy że stacja CW używa radia FT-817 do wygenerowania naszego sygnału CW. FT-817 zgodnie z danymi producenta waży 1.17 kg wraz z bateriami, wyjmując baterie zaoszczędzimy kolejne 300 g, co daje masę 870 g i współczynnik 174 g/W.<br />
+<br />
+Nie ma radia które daje nam 135 W, ale weźmy zbliżone urządzenie FT-857, radio waży 2.1 kg i oddaje 100 W mocy. Daje nam to 21 g/W, skalując do 135 W, daje nam masę 2.85 kg. Więc na starcie znajomość CW daje nam 1 kg przewagi.<br />
+<br />
+To nie wszystko, spójrzmy teraz na zasilanie jakie potrzebujemy ze sobą zabrać. FT-817 pobiera podczas nadawania 2 A, więc potrzebujemy ogniwa 2 Ah, W przypadku FT-857, nadajnik pobiera 22 A przy 100 W, skalując do 135 W, daje nam wynik 30 A i potrzeby akumulator na godzinę pracy 30 Ah. Jeśli założymy że zabieramy akumulatory LiFePO4, znalazłem akumulator 12V 2.4 Ah który  waży 360g, za to najlepszy akumulator 30 Ah 12V LiFePO4 waży 3.7 kg.<br />
+<br />
+Podsumujmy:<br />
+<br />
+FT-817 + 2.4 Ah LiFePO4 = 1.53 kg<br />
+<br />
+FT-857 (przeskalowane do 135W) + 30 Ah LiFePO4 = 6.55 kg <br />
+<br />
+W tej uproszczonej analizie znajomość CW daje nam 5 kg<br />
+<br />
+Znajomość CW nie waży nic, ale jeśli musisz nosić swoją radiostację na plecach, pozwoli ci ona zaoszczędzić wiele wysiłku i potu.<br />
+<br />
+<b>Tekst pochodzi ze strony :</b> <a href="http://www.sotabeams.co.uk/the-no-code-penalty/" target="_blank"><b>http://www.sotabeams.co.uk/the-no-code-penalty/</b></a><br /></p>
+<div>
+<br /></div>
+:ET

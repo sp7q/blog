@@ -1,0 +1,30 @@
+---
+title: "Pogoda słoneczna."
+date: 2015-03-19T15:29:00.001Z
+layout: post
+---
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="/images/2000px-NOAA_logo.svg.png" height="200" width="200" /></div>
+W związku z ostatnia flarą jaka dotarła do ziemi i całego zamieszania wokół niej postanowiłem podzielić się tym wykopanym w sieci materiałem. NOAA to odpowiednik naszego IMGW. Różnica polega na tym ze oprócz pogody naszej ziemskiej monitują także pogodę słoneczną. Słońce jest gwiazdą dzięki kótrej możemy istnieć, dzięki niej wszystko wokół ale bywa także groźna. Pokazuje także jak bardzo jesteśmy uzależnieni od technologii !! W kolejnych czterech odsłonach materiał wideo tłumczy na czym jest słoneczna pogoda, co NOAA robi, z kim współpracuje, dla kogo te dane są użyteczne, a także jak słońce może wpływać na komunikację radiową, nawigację GPS i energetykę.
+<br />
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Miłego oglądania !!!</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="/images/JncTCE2NWgc?list=PLBdd8cMH5jFmvVR2sZubIUzBO6JI0Pvx0" width="560"></iframe></div>
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="/images/7vFGTl_Cp6I?list=PLBdd8cMH5jFmvVR2sZubIUzBO6JI0Pvx0" width="560"></iframe></div>
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="/images/V4rSC6Hje0E?list=PLBdd8cMH5jFmvVR2sZubIUzBO6JI0Pvx0" width="560"></iframe></div>
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="315" src="/images/caHYgTf6tO8?list=PLBdd8cMH5jFmvVR2sZubIUzBO6JI0Pvx0" width="560"></iframe></div>
