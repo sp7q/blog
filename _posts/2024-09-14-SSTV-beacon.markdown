@@ -1,4 +1,6 @@
 ---
+published: false
+published: false
 layout: post
 title:  "SSTV Beacon"
 date:   2024-09-14 12:00:00 +0200

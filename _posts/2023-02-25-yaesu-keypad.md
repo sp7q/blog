@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Yaesu keypad"
 date: 2023-02-25T18:54:00.005Z
 layout: post

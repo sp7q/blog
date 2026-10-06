@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Słuchawki radiokomunikacyjne."
 date: 2018-12-19T10:32:00.001Z
 layout: post

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Open source contesting czyli TLF w boju."
 date: 2015-02-17T13:29:00Z
 layout: post

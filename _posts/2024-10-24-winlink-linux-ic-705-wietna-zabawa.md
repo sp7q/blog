@@ -1,4 +1,5 @@
 ---
+published: false
 title: "WinLink + Linux + IC-705 = świetna zabawa !"
 date: 2024-10-24T11:45:00Z
 layout: post

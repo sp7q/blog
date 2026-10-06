@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Elecraft KX3 Cardboard Desk Stand"
 date: 2016-07-27T11:07:00Z
 layout: post

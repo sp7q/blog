@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Wyjazd 'porażka'."
 date: 2017-05-08T09:36:00.001Z
 layout: post

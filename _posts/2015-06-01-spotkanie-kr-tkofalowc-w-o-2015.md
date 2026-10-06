@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Spotkanie krótkofalowców ŁOŚ 2015"
 date: 2015-06-01T13:29:00Z
 layout: post

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "BITX-40 - wrażenia."
 date: 2017-01-12T17:41:00Z
 layout: post

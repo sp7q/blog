@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Antena 2m/70cm do urządzenia ręcznego (aka Signal Stick)"
 date: 2024-10-27T15:25:00Z
 layout: post

@@ -1,4 +1,6 @@
 ---
+published: false
+published: false
 layout: post
 title:  "Signals Stick"
 date:   2024-07-27 12:00:00 +0200

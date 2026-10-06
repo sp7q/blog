@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Zrzutka na pracownię radiotechniczną."
 date: 2019-04-28T22:00:00Z
 layout: post

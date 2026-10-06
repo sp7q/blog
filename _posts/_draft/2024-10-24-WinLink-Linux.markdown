@@ -1,4 +1,6 @@
 ---
+published: false
+published: false
 layout: post
 title:  "Winlink + Linux + IC-705"
 date:   2024-10-24 12:00:00 +0200

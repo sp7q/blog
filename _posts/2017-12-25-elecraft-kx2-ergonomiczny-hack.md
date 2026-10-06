@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Elecraft KX2 ergonomiczny hack "
 date: 2017-12-25T11:51:00.001Z
 layout: post

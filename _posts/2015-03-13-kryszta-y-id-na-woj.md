@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Kryształy idą na woję."
 date: 2015-03-13T10:42:00Z
 layout: post

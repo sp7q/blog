@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Analizator antenowy za mniej niż 40 dolców"
 date: 2015-08-16T21:41:00.001Z
 layout: post

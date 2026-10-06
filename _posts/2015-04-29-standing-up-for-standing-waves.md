@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Standing Up for Standing Waves"
 date: 2015-04-29T07:41:00.001Z
 layout: post

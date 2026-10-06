@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Lista przemienników analogowych dla IC-705 (i nie tylko)"
 date: 2020-09-24T18:58:00.003Z
 layout: post

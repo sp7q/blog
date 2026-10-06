@@ -1,4 +1,5 @@
 ---
+published: false
 title: "DIY CW travel paddle"
 date: 2014-03-24T19:48:00Z
 layout: post

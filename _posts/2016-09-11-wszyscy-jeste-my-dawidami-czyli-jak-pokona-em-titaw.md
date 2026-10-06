@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Wszyscy jesteśmy Dawidami - czyli jak pokonałem titawę."
 date: 2016-09-11T11:01:00Z
 layout: post

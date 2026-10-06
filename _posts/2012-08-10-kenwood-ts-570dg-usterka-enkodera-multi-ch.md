@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Kenwood TS-570DG usterka enkodera Multi/CH"
 date: 2012-08-10T10:22:00.001Z
 layout: post

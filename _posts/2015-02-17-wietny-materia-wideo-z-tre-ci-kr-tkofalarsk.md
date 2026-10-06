@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Świetny materiał wideo z treścią krótkofalarską."
 date: 2015-02-17T09:15:00.001Z
 layout: post

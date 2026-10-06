@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Metal Clip CW Paddle  "
 date: 2014-03-24T21:35:00.002Z
 layout: post

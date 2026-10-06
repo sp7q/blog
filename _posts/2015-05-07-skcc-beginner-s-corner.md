@@ -1,4 +1,5 @@
 ---
+published: false
 title: "SKCC Beginner's Corner"
 date: 2015-05-07T16:59:00.001Z
 layout: post

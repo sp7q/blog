@@ -1,4 +1,5 @@
 ---
+published: false
 title: "GitHub : Load Cell Morse Code Paddle"
 date: 2020-09-03T13:36:00.002Z
 layout: post

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "FT-450 modyfikacja"
 date: 2010-02-10T10:23:00Z
 layout: post

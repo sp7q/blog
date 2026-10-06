@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Identyfikacja sygnałów radiowych."
 date: 2015-09-21T11:11:00.002Z
 layout: post

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Open Sleeve Dipole"
 date: 2010-06-05T21:44:00.001Z
 layout: post

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Nowy przemiennik DV"
 date: 2014-11-16T04:40:00.003Z
 layout: post

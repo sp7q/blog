@@ -1,4 +1,6 @@
 ---
+published: false
+published: false
 layout: post
 title:  "GP antenna"
 date:   2024-04-14 12:00:00 +0200

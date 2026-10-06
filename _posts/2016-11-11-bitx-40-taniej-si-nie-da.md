@@ -1,4 +1,5 @@
 ---
+published: false
 title: "BitX 40 - taniej się nie da"
 date: 2016-11-11T11:58:00Z
 layout: post

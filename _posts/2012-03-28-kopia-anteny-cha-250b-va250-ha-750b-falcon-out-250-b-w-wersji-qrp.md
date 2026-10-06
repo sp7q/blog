@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Kopia anteny CHA-250B (VA250,HA-750B,FALCON OUT-250-B) w wersji QRP"
 date: 2012-03-28T09:17:00.003Z
 layout: post

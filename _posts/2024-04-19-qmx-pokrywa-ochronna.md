@@ -1,4 +1,5 @@
 ---
+published: false
 title: "QMX - pokrywa ochronna"
 date: 2024-04-19T11:52:00Z
 layout: post

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Pierwsze radio"
 date: 2020-02-08T17:49:00.001Z
 layout: post

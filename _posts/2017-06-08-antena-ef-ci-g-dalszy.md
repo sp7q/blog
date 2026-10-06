@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Antena EF ciąg dalszy."
 date: 2017-06-08T18:59:00.001Z
 layout: post

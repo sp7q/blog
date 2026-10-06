@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Tribander KD1JV"
 date: 2014-11-13T17:10:00.001Z
 layout: post

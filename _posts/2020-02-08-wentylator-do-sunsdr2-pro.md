@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Wentylator do SunSDR2 PRO"
 date: 2020-02-08T17:35:00Z
 layout: post

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Dlaczego QRP działa"
 date: 2015-10-21T08:26:00.001Z
 layout: post

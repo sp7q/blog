@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Antena magnetyczna na pasmo 17m"
 date: 2011-03-14T22:23:00Z
 layout: post

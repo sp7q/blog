@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Manipulator dwudźwigniowy z wykorzystaniem belki tensorycznej."
 date: 2020-06-23T20:25:00.004Z
 layout: post

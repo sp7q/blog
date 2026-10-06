@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Lekcje krótkofalarstwa."
 date: 2015-02-10T10:14:00.002Z
 layout: post

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Beacon SSTV"
 date: 2024-09-14T17:31:00Z
 layout: post

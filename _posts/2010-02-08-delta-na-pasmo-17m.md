@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Delta na pasmo 17m"
 date: 2010-02-08T19:20:00Z
 layout: post

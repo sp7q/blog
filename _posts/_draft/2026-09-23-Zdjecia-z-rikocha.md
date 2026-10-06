@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "Nowa galeria zdjęć"
 date: 2026-09-23 13:30:00 +0200

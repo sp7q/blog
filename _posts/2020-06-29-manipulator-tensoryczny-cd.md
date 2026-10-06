@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Manipulator tensoryczny cd."
 date: 2020-06-29T21:57:00Z
 layout: post

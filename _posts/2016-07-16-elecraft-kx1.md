@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Elecraft KX1"
 date: 2016-07-16T11:12:00Z
 layout: post

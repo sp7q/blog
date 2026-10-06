@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Voice keyer na ISD1420"
 date: 2013-04-01T19:01:00Z
 layout: post

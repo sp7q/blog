@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Legenda 'Klimka'"
 date: 2020-02-18T15:49:00Z
 layout: post

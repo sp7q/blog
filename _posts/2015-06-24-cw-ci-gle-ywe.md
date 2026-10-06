@@ -1,4 +1,5 @@
 ---
+published: false
 title: "CW ciągle żywe !"
 date: 2015-06-24T14:47:00.002Z
 layout: post

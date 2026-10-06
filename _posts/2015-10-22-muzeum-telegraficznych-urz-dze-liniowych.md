@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Muzeum telegraficznych urządzeń liniowych"
 date: 2015-10-22T07:27:00Z
 layout: post

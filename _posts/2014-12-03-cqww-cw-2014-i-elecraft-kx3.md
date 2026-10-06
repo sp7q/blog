@@ -1,4 +1,5 @@
 ---
+published: false
 title: "CQWW CW 2014 i Elecraft KX3"
 date: 2014-12-03T17:33:00.003Z
 layout: post

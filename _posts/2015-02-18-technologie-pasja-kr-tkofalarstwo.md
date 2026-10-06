@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Technologie, pasja, krótkofalarstwo. "
 date: 2015-02-18T12:33:00.002Z
 layout: post

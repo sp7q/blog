@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Krótkofalarstwo - hobby 21-go wieku"
 date: 2015-10-17T11:40:00.003Z
 layout: post

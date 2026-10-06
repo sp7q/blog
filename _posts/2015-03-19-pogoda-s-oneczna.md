@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Pogoda słoneczna."
 date: 2015-03-19T15:29:00.001Z
 layout: post
