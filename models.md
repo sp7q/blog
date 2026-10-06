@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Hangar"
-#permalink: /models/
+permalink: /models/
 ---
 
 My models
@@ -9,7 +9,7 @@ My models
 <ul>
   {% for plane in site.planes %}
     <li>
-      <a href="{{ plane.url }}">{{ plane.title }}</a>
+      <a href="{{ plane.url | relative_url }}">{{ plane.title }}</a>
       <!-- Możesz tu wyciągnąć dodatkowe dane z Front Matter, np.: -->
       <!-- <small>(Rozpiętość: {{ plane.rozpietosc }})</small> -->
     </li>

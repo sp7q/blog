@@ -9,7 +9,7 @@ My keys,paddles,bugs
 <ul>
   {% for key in site.keys %}
     <li>
-      <a href="{{ key.url }}">{{ key.title }}</a>
+      <a href="{{ key.url | relative_url }}">{{ key.title }}</a>
     </li>
   {% endfor %}
 </ul>
