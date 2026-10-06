@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Hangar"
-permalink: /models/
+#permalink: /models/
 ---
 
 My models

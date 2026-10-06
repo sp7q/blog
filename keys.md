@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "CW Keys"
-permalink: /keys/
+#permalink: /keys/
 ---
 
 My keys,paddles,bugs 
