@@ -18,10 +18,10 @@ You can find the 3D printing files here: https://www.thingiverse.com/thing:68109
 
 
 Some pictures :
-<img src="{{ '/assets/images/Stick1.jpeg' | relative_url }}" alt="Opis obrazka" width="600">
-<img src="{{ '/assets/images/Stick2.jpeg' | relative_url }}" alt="Opis obrazka" width="600">
-<img src="{{ '/assets/images/Stick3.jpg' | relative_url }}" alt="Opis obrazka" width="600">
-<img src="{{ '/assets/images/Stick4.jpg' | relative_url }}" alt="Opis obrazka" width="600">
-<img src="{{ '/assets/images/Stick5.jpg' | relative_url }}" alt="Opis obrazka" width="600">
-<img src="{{ '/assets/images/Stick6.jpg' | relative_url }}" alt="Opis obrazka" width="600">
-<img src="{{ '/assets/images/Stick7.jpg' | relative_url }}" alt="Opis obrazka" width="600">
+<img src="{{ '/assets/images/Stick1.jpeg' | relative_url }}" width="600">
+<img src="{{ '/assets/images/Stick2.jpeg' | relative_url }}" width="600">
+<img src="{{ '/assets/images/Stick3.jpg' | relative_url }}" width="600">
+<img src="{{ '/assets/images/Stick4.jpg' | relative_url }}" width="600">
+<img src="{{ '/assets/images/Stick5.jpg' | relative_url }}" width="600">
+<img src="{{ '/assets/images/Stick6.jpg' | relative_url }}" width="600">
+<img src="{{ '/assets/images/Stick7.jpg' | relative_url }}" width="600">

@@ -1,6 +1,4 @@
 ---
-published: false
-published: false
 layout: post
 title:  "Winlink + Linux + IC-705"
 date:   2024-10-24 12:00:00 +0200
@@ -10,50 +8,71 @@ tags: winlink IC705 HF linux
 
 (Not quite) Great fun and frustration (: - unfortunately, most users are Windows-based and that is who the WinLink software is targeted at. It took me a bit of time to put it all together into a working whole. I was also motivated to push the topic forward by the purchase of a Banana Pi M4 Zero - which outclasses its raspberry-branded competitor. The 705 + a small SBC means we have a powerful tool in our hands for radio experiments with whatever modes come to mind.
 
+<img src="{{ '/assets/images/ic705winlink.jpg' | relative_url }}" alt="IC705" width="600">
+
 Linux has a great, minimalist Winlink client = PAT.
+
+<img src="{{ '/assets/images/pat.png' | relative_url }}" alt="PAT" width="600">
 
 You can find the project page here: https://getpat.io/
 
 Installation on Armbian is the classic:
 
+{% highlight bash %}
 sudo apt-get install pat
+{% endhighlight %}
 
 After installation, you need to configure the client:
 
+{% highlight bash %}
 pat-winlink configure
+{% endhighlight %}
+
+<img src="{{ '/assets/images/config.PNG' | relative_url }}" alt="config" width="600">
 
 I connect to the client via HTTP. It's also worth noting that the default setting is "http_addr": "localhost:8080", meaning the client only accepts connections from our Banana Pi. To be able to log in from the outside, you need to set "http_addr": ":8080".
 
 Let's fire up the client:
 
+{% highlight bash %}
 pat-winlink http
+{% endhighlight %}
 
 The client is accessible via a web browser at http://your_device_ip:8080
 
 Telnet session example:
+
+<img src="{{ '/assets/images/telnet.PNG' | relative_url }}" alt="telnet" width="600">
 
 Time to tackle the radio part.
 First, we need to compile the modem ourselves. You can download the sources from: https://github.com/hamarituc/ardop
 
 The modem supported by WinLink is ARDOPC
 
+{% highlight bash %}
 cd ARDOPC
 make
 sudo cp arcopc /usr/local/bin (Note: arcopc is likely a typo in the original text for ardopc)
+{% endhighlight %}
 
 Let's check what sound cards we have available:
 
+{% highlight bash %}
 arecord -l
+{% endhighlight %}
 
 In my case it is:
 
+{% highlight bash %}
 **** List of CAPTURE Hardware Devices ****
 card 0: CODEC [USB Audio CODEC], device 0: USB Audio [USB Audio]
   Subdevices: 0/1
   Subdevice #0: subdevice #0
+{% endhighlight %}
 
 We create an .asoundrc file in the home directory and add:
 
+{% highlight bash %}
 pcm.ARDOP {
   type rate
   slave {
@@ -61,14 +80,27 @@ pcm.ARDOP {
     rate 48000
   }
 }
+{% endhighlight %}
+
 Let's fire up ardop:
+
+<img src="{{ '/assets/images/ardop.PNG' | relative_url }}" alt="ardop" width="600">
 
 The modem is waiting for a connection on its standard port 8515, which we configured earlier in PAT.
 
 We also need to control the radio, this is where rigctl comes in handy:
 
+{% highlight bash %}
 rigctld -m 3085 -s 115200 -r /dev/ttyACM0 -t 4532
+{% endhighlight %}
 
 We are ready for our first radio session!
 
 Our session:
+
+<img src="{{ '/assets/images/modem.PNG' | relative_url }}" alt="modem" width="600">
+
+<img src="{{ '/assets/images/radio.PNG' | relative_url }}" alt="radio" width="600">
+
+<img src="{{ '/assets/images/radio2.PNG' | relative_url }}" alt="radio2" width="600">
+
