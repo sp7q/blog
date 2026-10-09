@@ -1,0 +1,10 @@
+---
+layout: post
+title: Mainstream social networks are dead.
+tag: blog
+---
+
+I’ve ditched mainstream social media. Algorithms and Big Tech’s greed have made these platforms unbearable to use. I only wish I’d done it sooner.
+You can still find me on mastodon or catch me by knonw chanells :-)
+
+
