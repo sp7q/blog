@@ -1,0 +1,65 @@
+I"�	<p>(Not quite) Great fun and frustration (: - unfortunately, most users are Windows-based and that is who the WinLink software is targeted at. It took me a bit of time to put it all together into a working whole. I was also motivated to push the topic forward by the purchase of a Banana Pi M4 Zero - which outclasses its raspberry-branded competitor. The 705 + a small SBC means we have a powerful tool in our hands for radio experiments with whatever modes come to mind.
+<img src="/assets/images/ic705winlink.jpg" alt="IC705" width="600" />
+Linux has a great, minimalist Winlink client = PAT.
+<img src="/assets/images/pat.png" alt="PAT" width="600" />
+You can find the project page here: https://getpat.io/</p>
+
+<p>Installation on Armbian is the classic:
+‘'’bash
+sudo apt-get install pat
+‘’’
+After installation, you need to configure the client:</p>
+
+<p>pat-winlink configure</p>
+
+<p>I connect to the client via HTTP. It’s also worth noting that the default setting is “http_addr”: “localhost:8080”, meaning the client only accepts connections from our Banana Pi. To be able to log in from the outside, you need to set “http_addr”: “:8080”.</p>
+
+<p>Let’s fire up the client:</p>
+
+<p>pat-winlink http</p>
+
+<p>The client is accessible via a web browser at http://your_device_ip:8080</p>
+
+<p>Telnet session example:</p>
+
+<p>Time to tackle the radio part.
+First, we need to compile the modem ourselves. You can download the sources from: https://github.com/hamarituc/ardop</p>
+
+<p>The modem supported by WinLink is ARDOPC</p>
+
+<p>cd ARDOPC
+make
+sudo cp arcopc /usr/local/bin (Note: arcopc is likely a typo in the original text for ardopc)</p>
+
+<p>Let’s check what sound cards we have available:</p>
+
+<p>arecord -l</p>
+
+<p>In my case it is:</p>
+
+<p><strong>** List of CAPTURE Hardware Devices **</strong>
+card 0: CODEC [USB Audio CODEC], device 0: USB Audio [USB Audio]
+  Subdevices: 0/1
+  Subdevice #0: subdevice #0</p>
+
+<p>We create an .asoundrc file in the home directory and add:</p>
+
+<p>pcm.ARDOP {
+  type rate
+  slave {
+    pcm “plughw:0,0”
+    rate 48000
+  }
+}
+Let’s fire up ardop:</p>
+
+<p>The modem is waiting for a connection on its standard port 8515, which we configured earlier in PAT.</p>
+
+<p>We also need to control the radio, this is where rigctl comes in handy:</p>
+
+<p>rigctld -m 3085 -s 115200 -r /dev/ttyACM0 -t 4532</p>
+
+<p>We are ready for our first radio session!</p>
+
+<p>Our session:</p>
+:ET

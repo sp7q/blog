@@ -1,0 +1,83 @@
+I"[<p>(Not quite) Great fun and frustration (: - unfortunately, most users are Windows-based and that is who the WinLink software is targeted at. It took me a bit of time to put it all together into a working whole. I was also motivated to push the topic forward by the purchase of a Banana Pi M4 Zero - which outclasses its raspberry-branded competitor. The 705 + a small SBC means we have a powerful tool in our hands for radio experiments with whatever modes come to mind.</p>
+
+<p><img src="/assets/images/ic705winlink.jpg" alt="IC705" width="600" /></p>
+
+<p>Linux has a great, minimalist Winlink client = PAT.</p>
+
+<p><img src="/assets/images/pat.png" alt="PAT" width="600" /></p>
+
+<p>You can find the project page here: https://getpat.io/</p>
+
+<p>Installation on Armbian is the classic:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get <span class="nb">install </span>pat</code></pre></figure>
+
+<p>After installation, you need to configure the client:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">pat-winlink configure</code></pre></figure>
+
+<p><img src="/assets/images/config.PNG" alt="config" width="600" /></p>
+
+<p>I connect to the client via HTTP. It’s also worth noting that the default setting is “http_addr”: “localhost:8080”, meaning the client only accepts connections from our Banana Pi. To be able to log in from the outside, you need to set “http_addr”: “:8080”.</p>
+
+<p>Let’s fire up the client:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">pat-winlink http</code></pre></figure>
+
+<p>The client is accessible via a web browser at http://your_device_ip:8080</p>
+
+<p>Telnet session example:</p>
+
+<p><img src="/assets/images/telnet.PNG" alt="telnet" width="600" /></p>
+
+<p>Time to tackle the radio part.
+First, we need to compile the modem ourselves. You can download the sources from: https://github.com/hamarituc/ardop</p>
+
+<p>The modem supported by WinLink is ARDOPC</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>ARDOPC
+make
+<span class="nb">sudo cp </span>arcopc /usr/local/bin <span class="o">(</span>Note: arcopc is likely a typo <span class="k">in </span>the original text <span class="k">for </span>ardopc<span class="o">)</span></code></pre></figure>
+
+<p>Let’s check what sound cards we have available:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">arecord <span class="nt">-l</span></code></pre></figure>
+
+<p>In my case it is:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="k">****</span> List of CAPTURE Hardware Devices <span class="k">****</span>
+card 0: CODEC <span class="o">[</span>USB Audio CODEC], device 0: USB Audio <span class="o">[</span>USB Audio]
+  Subdevices: 0/1
+  Subdevice <span class="c">#0: subdevice #0</span></code></pre></figure>
+
+<p>We create an .asoundrc file in the home directory and add:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">pcm.ARDOP <span class="o">{</span>
+  <span class="nb">type </span>rate
+  slave <span class="o">{</span>
+    pcm <span class="s2">"plughw:0,0"</span>
+    rate 48000
+  <span class="o">}</span>
+<span class="o">}</span></code></pre></figure>
+
+<p>Let’s fire up ardop:</p>
+
+<p><img src="/assets/images/ardop.PNG" alt="ardop" width="600" /></p>
+
+<p>The modem is waiting for a connection on its standard port 8515, which we configured earlier in PAT.</p>
+
+<p><img src="/assets/images/modem.PNG" alt="modem" width="600" /></p>
+
+<p>We also need to control the radio, this is where rigctl comes in handy:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">rigctld <span class="nt">-m</span> 3085 <span class="nt">-s</span> 115200 <span class="nt">-r</span> /dev/ttyACM0 <span class="nt">-t</span> 4532</code></pre></figure>
+
+<p>We are ready for our first radio session!</p>
+
+<p>Our session:</p>
+
+<p><img src="/assets/images/radio.PNG" alt="radio" width="600" /></p>
+
+<p><img src="/assets/images/radio2.PNG" alt="radio2" width="600" /></p>
+
+:ET
