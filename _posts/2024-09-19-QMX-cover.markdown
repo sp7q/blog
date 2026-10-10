@@ -6,6 +6,16 @@ categories: Hamradio
 tags: QMX DIY 3Dprint
 ---
 
-
+I've made cover with side bars for my QMX buddy.
 
 https://www.thingiverse.com/thing:6585607
+
+
+
+<img src="{{ '/assets/images/cover1.jpg' | relative_url }}" alt="Cover1" width="600">
+<img src="{{ '/assets/images/cover2.jpg' | relative_url }}" alt="Cover2" width="600">
+<img src="{{ '/assets/images/cover3.jpg' | relative_url }}" alt="Cover3" width="600">
+<img src="{{ '/assets/images/cover4.jpg' | relative_url }}" alt="Cover4" width="600">
+<img src="{{ '/assets/images/cover5.jpg' | relative_url }}" alt="Cover5" width="600">
+<img src="{{ '/assets/images/cover6.jpg' | relative_url }}" alt="Cover6" width="600">
+
