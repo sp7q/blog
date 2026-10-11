@@ -14,7 +14,7 @@ This is probably the simplest and quite an effective antenna you can make for yo
 4. Put on the 3D-printed cap.
 5. Enjoy your great antenna!
 
-You can find the 3D printing files here: https://www.thingiverse.com/thing:6810945
+You can find the 3D printing files here: [https://www.thingiverse.com/thing:6810945](https://www.thingiverse.com/thing:6810945)
 
 
 Some pictures :

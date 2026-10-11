@@ -1,0 +1,20 @@
+---
+title: "DX-commander style GP antenna"
+date: 2024-04-15T05:15:00Z
+layout: post
+---
+
+If You wanna reproduce DX-commander style antenna, below You can find dxf files for base laser cut offs.
+
+My one is built based on cheap 13m fishing rod.
+
+[Base]({{ site.baseurl }}/assets/files/groundplate.dxf)
+[RF]({{ site.baseurl }}/assets/podstawy/rf.dxf)
+
+
+<img src="{{ '/assets/images/gp1.jpeg' | relative_url }}" alt="gp1" width="600">
+
+<img src="{{ '/assets/images/gp2.jpeg' | relative_url }}" alt="gp2" width="600">
+
+<img src="{{ '/assets/images/gp3.jpeg' | relative_url }}" alt="gp3" width="600">
+

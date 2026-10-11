@@ -1,0 +1,58 @@
+I"�<p>In a ham radio operator’s drawer, there are always plenty of electronic parts lying around, often bought with some project in mind and then abandoned. Fortunately, they almost never go to waste; sooner or later, a completely different project will be created from them. That was the case this time; modules lying in the drawer, once bought for an Echolink gateway, served me for an SSTV-related project.</p>
+
+<p>The Nano Pi NEO is a small SBC with dimensions of 4x4 cm; its advantage is a fully-fledged sound card with analog input and output (exactly what’s needed for things like Echolink, for example).
+You can find more information here, for example:
+<a href="https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO">https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO</a></p>
+
+<p><img src="/assets/images/sstv5.png" alt="Nano PI" width="600" /></p>
+
+<p>A Chinese DRA818 module serves as the transmitting part:<a href="https://www.dorji.com/docs/data/DRA818V.pdf">https://www.dorji.com/docs/data/DRA818V.pdf</a></p>
+
+<p><img src="/assets/images/sstv1.png" alt="dra818" width="600" /></p>
+
+<p>Besides installing the system, we also need the imagemagick and pysstv packages.</p>
+
+<p>Also, from a previous project, I already had a PCB prepared; the radio part is a typical DRA818 implementation.
+As an image source, I used a simple webcam connected to a USB port; there is a plan to replace it with a camera integrated via GPIO.</p>
+
+<p><img src="/assets/images/sstv3.png" alt="mod1" width="600" /> 
+<img src="/assets/images/sstv4.png" alt="mod2" width="600" /></p>
+
+<p>We also need to define the pin that will serve as the PTT. The necessary help can be found here:
+<a href="https://wiki.friendlyelec.com/wiki/index.php/WiringNP:_NanoPi_NEO/NEO2/Air_GPIO_Programming_with_C">https://wiki.friendlyelec.com/wiki/index.php/WiringNP:_NanoPi_NEO/NEO2/Air_GPIO_Programming_with_C</a></p>
+
+<p>I/O handling installation:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/friendlyarm/WiringNP
+<span class="nb">cd </span>WiringNP/
+<span class="nb">chmod </span>755 build
+./build</code></pre></figure>
+
+<p>Below is the script that does all the “magic”:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash
+</span>
+<span class="nb">echo</span> <span class="s2">"taking a photo"</span>
+fswebcam <span class="nt">-r</span> 640x480 <span class="nt">--no-banner</span> <span class="nt">--no-subtitle</span> 640x480.png
+<span class="nb">echo</span> <span class="s2">"changing resolution"</span>
+convert 640x480.png <span class="nt">-resize</span> 640x496<span class="se">\!</span> nowy.png
+<span class="nb">echo</span> <span class="s2">"adding text"</span>
+convert nowy.png <span class="nt">-font</span> helvetica <span class="nt">-pointsize</span> 80 <span class="nt">-fill</span> red <span class="nt">-draw</span> <span class="s2">"text 20,70 'SP7HACK'"</span> <span class="nt">-pointsize</span> 40 <span class="nt">-draw</span> <span class="s2">"text 20,110 'JO91RS'"</span> <span class="nt">-pointsize</span> 30 <span class="nt">-draw</span> <span class="s2">"text 20,145 '</span><span class="si">$(</span><span class="nb">date</span><span class="si">)</span><span class="s2">'"</span> <span class="nt">-pointsize</span> 30 <span class="nt">-draw</span> <span class="s2">"text 20,470 'Zapraszamy do Hakierspejs Łódź hs-ldz.pl'"</span> hack.png
+<span class="nb">echo</span> <span class="s2">"generating SSTV"</span>
+python3 <span class="nt">-m</span> pysstv <span class="nt">--mode</span> PD120 <span class="nt">--vox</span> <span class="nt">--fskid</span> SP7HACK hack.png sp7hack.wav
+<span class="nb">echo</span> <span class="s2">"Setting radio to 433.4"</span>
+/bin/echo <span class="nt">-n</span> <span class="nt">-e</span> <span class="s2">"AT+DMOSETGROUP=1,433.4000,433.4000,0000,5,0000</span><span class="se">\n\r</span><span class="s2">"</span> <span class="o">&gt;</span> /dev/ttyS1
+<span class="nb">echo</span> <span class="s2">"PTT ON"</span>
+/usr/local/bin/gpio mode 4 out
+/usr/local/bin/gpio write 4 0
+<span class="nb">sleep </span>1
+<span class="nb">echo</span> <span class="s2">"Transmitting SSTV"</span>
+<span class="nv">AUDIODEV</span><span class="o">=</span>hw:2 play sp7hack.wav
+<span class="nb">echo</span> <span class="s2">"PTT OFF"</span>
+/usr/local/bin/gpio write 4 1</code></pre></figure>
+
+<p>The whole thing can be used, for example, as a payload in a high-altitude balloon mission.</p>
+
+<p>While visiting us at the Hackerspace, you can tune your radio to 433.400 and receive the images with a simple handheld radio and a phone app, for example: Robot36 - below received image.
+<img src="/assets/images/sstv2.png" alt="sstvimage" width="600" /></p>
+:ET

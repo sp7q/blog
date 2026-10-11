@@ -14,7 +14,7 @@ Linux has a great, minimalist Winlink client = PAT.
 
 <img src="{{ '/assets/images/pat.png' | relative_url }}" alt="PAT" width="600">
 
-You can find the project page here: https://getpat.io/
+You can find the project page here: [https://getpat.io/](https://getpat.io/)
 
 Installation on Armbian is the classic:
 
@@ -45,7 +45,7 @@ Telnet session example:
 <img src="{{ '/assets/images/telnet.PNG' | relative_url }}" alt="telnet" width="600">
 
 Time to tackle the radio part.
-First, we need to compile the modem ourselves. You can download the sources from: https://github.com/hamarituc/ardop
+First, we need to compile the modem ourselves. You can download the sources from: [https://github.com/hamarituc/ardop](https://github.com/hamarituc/ardop)
 
 The modem supported by WinLink is ARDOPC
 

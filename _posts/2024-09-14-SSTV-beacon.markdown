@@ -1,6 +1,4 @@
 ---
-published: false
-published: false
 layout: post
 title:  "SSTV Beacon"
 date:   2024-09-14 12:00:00 +0200
@@ -12,28 +10,38 @@ In a ham radio operator's drawer, there are always plenty of electronic parts ly
 
 The Nano Pi NEO is a small SBC with dimensions of 4x4 cm; its advantage is a fully-fledged sound card with analog input and output (exactly what's needed for things like Echolink, for example).
 You can find more information here, for example:
-https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO
+[https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO](https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO)
 
-A Chinese DRA818 module serves as the transmitting part: https://www.dorji.com/docs/data/DRA818V.pdf
+<img src="{{ '/assets/images/sstv5.png' | relative_url }}" alt="Nano PI" width="600">
+
+A Chinese DRA818 module serves as the transmitting part:[https://www.dorji.com/docs/data/DRA818V.pdf](https://www.dorji.com/docs/data/DRA818V.pdf) 
+
+<img src="{{ '/assets/images/sstv1.png' | relative_url }}" alt="dra818" width="600"> 
 
 Besides installing the system, we also need the imagemagick and pysstv packages.
 
 Also, from a previous project, I already had a PCB prepared; the radio part is a typical DRA818 implementation.
 As an image source, I used a simple webcam connected to a USB port; there is a plan to replace it with a camera integrated via GPIO.
 
+<img src="{{ '/assets/images/sstv3.png' | relative_url }}" alt="mod1" width="600"> 
+<img src="{{ '/assets/images/sstv4.png' | relative_url }}" alt="mod2" width="600"> 
+
 We also need to define the pin that will serve as the PTT. The necessary help can be found here:
-https://wiki.friendlyelec.com/wiki/index.php/WiringNP:_NanoPi_NEO/NEO2/Air_GPIO_Programming_with_C
+[https://wiki.friendlyelec.com/wiki/index.php/WiringNP:_NanoPi_NEO/NEO2/Air_GPIO_Programming_with_C](https://wiki.friendlyelec.com/wiki/index.php/WiringNP:_NanoPi_NEO/NEO2/Air_GPIO_Programming_with_C)
 
 I/O handling installation:
 
-Bash
+{% highlight bash %}
 git clone https://github.com/friendlyarm/WiringNP
 cd WiringNP/
 chmod 755 build
 ./build
+{% endhighlight %}
+
 Below is the script that does all the "magic":
 
-Bash
+{% highlight bash %}
+
 #!/bin/bash
 echo "taking a photo"
 fswebcam -r 640x480 --no-banner --no-subtitle 640x480.png
@@ -53,6 +61,11 @@ echo "Transmitting SSTV"
 AUDIODEV=hw:2 play sp7hack.wav
 echo "PTT OFF"
 /usr/local/bin/gpio write 4 1
+
+{% endhighlight %}
+
+
 The whole thing can be used, for example, as a payload in a high-altitude balloon mission.
 
-While visiting us at the Hackerspace, you can tune your radio to 433.400 and receive the images with a simple handheld radio and a phone app, for example: Robot36 - below are a few received images.
+While visiting us at the Hackerspace, you can tune your radio to 433.400 and receive the images with a simple handheld radio and a phone app, for example: Robot36 - below received image.
+<img src="{{ '/assets/images/sstv2.png' | relative_url }}" alt="sstvimage" width="600"> 
