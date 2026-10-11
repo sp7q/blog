@@ -1,0 +1,43 @@
+I"2<p>Many people have been asking me about this paddle because it looks interesting, mainly because I’ve used some fancy shirt buttons! :-)</p>
+
+<div class="video-container"> <iframe src="https://www.youtube.com/embed/RtEYI4aF7j4" title="Metal clip paddle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe> </div>
+
+<p>It’s really easy to make, and there’s a good chance you already have all the parts you need in your drawer.</p>
+
+<p>You’ll need:</p>
+<ul>
+  <li>paper clip</li>
+  <li>binder clip</li>
+  <li>metal shirt buttons - solderable</li>
+  <li>some plastic main body element - in my case a random plastic pushbutton</li>
+  <li>magnet</li>
+  <li>2 screws</li>
+  <li>piece of PCB</li>
+</ul>
+
+<p><img src="/assets/images/clip1.jpg" alt="clip1" width="600" /></p>
+
+<p>First, you need to prepare the binder clip.</p>
+
+<p>File down the edge so that the binder clip handle can be pushed out.</p>
+
+<p><img src="/assets/images/clip2.jpg" alt="clip2" width="600" />
+<img src="/assets/images/clip3.jpg" alt="clip3" width="600" /></p>
+
+<p>Now you can put everything together:</p>
+
+<p><img src="/assets/images/clip4.jpg" alt="clip4" width="600" /></p>
+
+<p>Use the paper clip to make arm limiters.</p>
+
+<p>Solder the buttons to the binder clip handles.</p>
+
+<p>Glue the PCB to the binder clip. These will act as the paddle contacts.</p>
+
+<p>And there you have it — a cheap but surprisingly nice, fully functional paddle! :-)</p>
+
+<p><img src="/assets/images/clip5.jpg" alt="clip5" width="600" />
+<img src="/assets/images/clip6.jpg" alt="clip6" width="600" />
+<img src="/assets/images/clip7.jpg" alt="clip7" width="600" />
+<img src="/assets/images/clip8.jpg" alt="clip8" width="600" /></p>
+:ET

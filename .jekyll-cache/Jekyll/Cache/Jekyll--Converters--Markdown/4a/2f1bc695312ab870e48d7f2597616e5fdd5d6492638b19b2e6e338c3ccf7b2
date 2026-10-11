@@ -1,44 +1,27 @@
----
-published: false
-title: "Metal Clip CW Paddle  "
-date: 2014-03-24T21:35:00.002Z
-layout: post
----
+I"}<p>Many people was asking me about this paddle becasue it looks inetersing, mostly becasue I’ve used some fancy shirt button :-)</p>
 
-<div class="separator" style="clear: both; text-align: center;">
-</div>
-<div>
-Oto kolejny mini projekt kieszonkowego klucza, który można zrobić z dosłownie kilku elementów znalezionych w szufladzie. Zainspirowało mnie do jego zrobienia materiał znaleziony w sieci na stronie K9LU <a href="http://www.amateurradioproducts.com/gallery.htm" target="_blank">LINK</a>&nbsp;gdzie klucz ten znany jest jako <b>Bulldog.</b></div>
-<div>
-<b><br /></b></div>
-<div class="separator" style="clear: both; text-align: center;">
-<img border="0" src="/images/107_0521.JPG" height="180" width="320" /></div>
-<div>
-<b><br /></b></div>
-<div>
-<br /></div>
-<div>
-Wykonanie tego klucza jest bardzo proste, potrzebujemy parę elementów :</div>
-<div>
-Guziki metalowe - dające się lutować 2szt&nbsp;</div>
-<div>
-Spinacz do papieru 1 szt</div>
-<div>
-Klips do papieru 1 szt</div>
-<div>
-Element nośny (brak na zdjęciu), w moim przypadku był to plastikowy przycisk</div>
-<div>
-Magnes neodymowy z otworem na śrubę (lub podstawa do której przymocujemy łopatki)</div>
-<div>
-Śrubki 2 szt.</div>
-<div>
-Kawałek laminatu (brak na zdjęciu)</div>
-<div>
-<br /></div>
-<div class="separator" style="clear: both; text-align: center;">
-<img border="0" src="/images/107_0510.JPG" height="180" width="320" /></div>
-<div>
-<br /></div>
+<p>I’t really easy to make and with huge probability You already have all parts in Your drawer.</p>
+
+<p>You need to have :</p>
+<ul>
+  <li>paper clip</li>
+  <li>binder clip</li>
+  <li>metal shirt buttons - solderable</li>
+  <li>some plastic main body element - in my case a random plastic pushbutton</li>
+  <li>magnet</li>
+  <li>2 screws</li>
+  <li>piece of PCB</li>
+</ul>
+
+<p><img src="/assets/images/clip1.jpg" alt="clip1" width="600" /></p>
+
+<p>First You need to preapre binder clip.
+Edge need to be file down in a way that binder clip handle will be pushed out.</p>
+
+<p><img src="/assets/images/clip2.jpg" alt="clip2" width="600" />
+<img src="/assets/images/clip3.jpg" alt="clip3" width="600" /></p>
+
+<p><br />&lt;/div&gt;</p>
 <div>
 Na początek musimy spreparować metalowy klips. Wycięcia na klipsie powodują że uchwyty cofają się w stronę klipsa.</div>
 <div>
@@ -106,10 +89,11 @@ Oto jak całość działa :</div>
 <div class="separator" style="clear: both; text-align: center;">
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
-<br /><object width="320" height="266" class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="/images/0.jpg"><param name="movie" value="https://www.youtube.com/v/RtEYI4aF7j4?version=3&f=user_uploads&c=google-webdrive-0&app=youtube_gdata" /><param name="bgcolor" value="#FFFFFF" /><param name="allowFullScreen" value="true" /><embed width="320" height="266"  src="/images/RtEYI4aF7j4?version=3&f=user_uploads&c=google-webdrive-0&app=youtube_gdata" type="application/x-shockwave-flash" allowfullscreen="true"></embed></object></div>
+<br /><object width="320" height="266" class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="/images/0.jpg"><param name="movie" value="https://www.youtube.com/v/RtEYI4aF7j4?version=3&amp;f=user_uploads&amp;c=google-webdrive-0&amp;app=youtube_gdata" /><param name="bgcolor" value="#FFFFFF" /><param name="allowFullScreen" value="true" /><embed width="320" height="266" src="/images/RtEYI4aF7j4?version=3&amp;f=user_uploads&amp;c=google-webdrive-0&amp;app=youtube_gdata" type="application/x-shockwave-flash" allowfullscreen="true" />&lt;/embed&gt;</object></div>
 <div class="separator" style="clear: both; text-align: center;">
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
 Na koniec komplet fotek gdyby ktoś chciał podejrzeć szczegóły <a href="https://plus.google.com/photos/+TomaszPabich/albums/5994449404825691329" target="_blank">https://plus.google.com/photos/+TomaszPabich/albums/5994449404825691329</a></div>
 <div>
 <br /></div>
+:ET
