@@ -1,0 +1,9 @@
+---
+title: "Analog repeaters list in SP for IC-705 (not only)"
+date: 2020-09-24T18:58:00.003Z
+layout: post
+---
+
+List of analog repeaters in SP for IC-705
+
+[My705.zip]({{ site.baseurl }}/assets/files/My705.zip)

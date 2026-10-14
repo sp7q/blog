@@ -1,0 +1,28 @@
+I"�<p><img src="/assets/images/kx2_4.jpg" width="600" /></p>
+
+<p>Small radios always involve compromises. With this little gem, Elecraft has managed to pack just about everything into a tiny package. If you really wanted to, you could even leave the microphone at home and use the one built into the radio.</p>
+
+<p><img src="/assets/images/kx2_5.jpg" width="600" /></p>
+
+<p>Unfortunately, unlike the KX3, the encoder uses a different design. It doesn’t turn as smoothly, and when you combine that with a small-diameter knob, the result is far from comfortable to use. It’s a bit like fitting a go-kart steering wheel into a comfortable luxury car. You still have luxury and comfort, at least in theory, but something keeps getting in the way.</p>
+
+<p>Since this isn’t the only compact radio on the market, I started Googling to see how other people had solved the problem of the tiny tuning knob on the FT-817. One solution really caught my eye. It looked simple, straightforward, and effective.</p>
+
+<p><img src="/assets/images/kx2_1.jpeg" width="600" /></p>
+
+<p>I sat down with OpenSCAD and designed the whole thing from scratch. I didn’t get a satisfactory result straight away. The final design was the result of numerous revisions and tests with the radio.</p>
+
+<p><img src="/assets/images/kx2_2.jpeg" width="600" /></p>
+
+<p>What did I achieve? I think the radio’s ergonomics have improved by at least one level. After all, the tuning knob is the control we spend the most time using on any radio. The space for your finger is exactly the same size as on my full-sized radio.</p>
+
+<p><img src="/assets/images/kx2_3.jpeg" width="600" /></p>
+
+<p>There are some downsides, too. The wheel extends beyond the outline of the knob and overlaps the buttons, but in everyday use, this hasn’t caused me any problems.</p>
+
+<p>The knob should also fit the KX1, and possibly the K1, as well as other homebrew amateur radio projects with a 6 mm shaft.</p>
+
+<p>I’ve also made the source files available, so anyone with even a little experience with OpenSCAD should be able to adapt the design to their own needs.</p>
+
+<p><a href="https://www.thingiverse.com/thing:2724151">https://www.thingiverse.com/thing:2724151</a></p>
+:ET
